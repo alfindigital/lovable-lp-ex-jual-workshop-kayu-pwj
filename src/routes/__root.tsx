@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Dijual Workshop Kayu Purworejo | SHM, 35kVA, 3 Oven Kiln Dry" },
+      { name: "description", content: "Workshop eks Kriya Works Purworejo. LT 2.893m², SHM, listrik 35kVA, 3 oven kiln dry. Pinggir jalan nasional. Harga 6M nego. Investasi industri siap pakai!" },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Dijual Workshop Kayu Purworejo | SHM, 35kVA, 3 Oven Kiln Dry" },
+      { property: "og:description", content: "Workshop eks Kriya Works Purworejo. LT 2.893m², SHM, listrik 35kVA, 3 oven kiln dry. Pinggir jalan nasional. Harga 6M nego. Investasi industri siap pakai!" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Dijual Workshop Kayu Purworejo | SHM, 35kVA, 3 Oven Kiln Dry" },
+      { name: "twitter:description", content: "Workshop eks Kriya Works Purworejo. LT 2.893m², SHM, listrik 35kVA, 3 oven kiln dry. Pinggir jalan nasional. Harga 6M nego. Investasi industri siap pakai!" },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/bF3BEEUDgfSLA15cOx2uACw4qOh1/social-images/social-1778401400904-workshop-kayu-oven-kiln-dry-purworejo-jateng.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/bF3BEEUDgfSLA15cOx2uACw4qOh1/social-images/social-1778401400904-workshop-kayu-oven-kiln-dry-purworejo-jateng.webp" },
     ],
     links: [
       {
