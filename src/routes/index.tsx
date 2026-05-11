@@ -334,7 +334,7 @@ const BODY_HTML = `<header class="topnav" id="topnav">
     <h2>Lokasi Properti</h2>
     <p class="lead">Persis di pinggir Jalan Nasional Banyuurip, Purworejo — mudah ditemukan dan diakses.</p>
     <div class="map-wrap">
-      <iframe src="https://www.google.com/maps?q=-7.7266923,109.963951&hl=id&z=16&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Lokasi Workshop Kayu Purworejo di Google Maps"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.5935019214503!2d109.96137607574936!3d-7.726686976571286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7aeb4ba64fbb7b%3A0x21de15f422a04dae!2skriya%20works%20wood%20%26%20metal!5e0!3m2!1sen!2sid!4v1778401494498!5m2!1sen!2sid" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" title="Lokasi Workshop Kriya Works Purworejo di Google Maps"></iframe>
     </div>
     <div class="address-box">
       <p><strong>Pitaran Lor, Candisari</strong></p>
@@ -386,13 +386,18 @@ const BODY_HTML = `<header class="topnav" id="topnav">
 
 <a class="wa-float" href="https://wa.me/6289619093961?text=Halo,%20saya%20tertarik%20dengan%20workshop%20kayu%20di%20Purworejo." target="_blank" rel="noopener" aria-label="Hubungi via WhatsApp">
   <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6c1.7.9 3.7 1.4 5.8 1.4 6.6 0 12-5.4 12-12S18.6 0 12 0zm5.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.4.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.3 5.2 4.6.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.3z"/></svg>
-</a>`;
+</a>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=4498289267084727&ev=PageView&noscript=1" alt=""/></noscript>`;
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       {
-            "title": "Dijual Workshop Industri Kayu Purworejo | SHM, 35kVA, 3 Oven Kiln Dry | Jalan Nasional"
+            title: "Dijual Workshop Industri Kayu Purworejo | SHM, 35kVA, 3 Oven Kiln Dry | Jalan Nasional"
+      },
+      {
+            name: "google-site-verification",
+            content: "hjEd4hgJkg9qS4q8BiPPhKlU43gWJpbeGa3BDwyZfIY"
       },
       {
             "charSet": "UTF-8"
@@ -523,11 +528,20 @@ export const Route = createFileRoute("/")({
             "rel": "stylesheet",
             "href": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+3:wght@300;400;600;700&display=swap"
       },
-      {
-            "rel": "canonical"
-      }
+      { rel: "preconnect", href: "https://www.googletagmanager.com" },
+      { rel: "preconnect", href: "https://connect.facebook.net" }
 ],
     scripts: [
+      {
+            async: true,
+            src: "https://www.googletagmanager.com/gtag/js?id=G-FWP8WBGP18"
+      },
+      {
+            children: "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-FWP8WBGP18');"
+      },
+      {
+            children: "!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','4498289267084727');fbq('track','PageView');"
+      },
       {
             "type": "application/ld+json",
             "children": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"RealEstateListing\",\n  \"name\": \"Workshop Industri Kayu Purworejo - SHM Tangan Pertama\",\n  \"description\": \"Workshop kayu dan furniture di Purworejo dijual. LT 2893m², SHM, listrik 35kVA, 3 oven kiln dry, pinggir jalan nasional.\",\n  \"url\": \"https://workshop-purworejo.netlify.app\",\n  \"image\": \"https://workshop-purworejo.netlify.app/og-image.jpg\",\n  \"datePosted\": \"2026-05-10\",\n  \"price\": \"6000000000\",\n  \"priceCurrency\": \"IDR\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"streetAddress\": \"Pitaran Lor, Candisari\",\n    \"addressLocality\": \"Purworejo\",\n    \"addressRegion\": \"Jawa Tengah\",\n    \"postalCode\": \"54171\",\n    \"addressCountry\": \"ID\"\n  },\n  \"floorSize\": { \"@type\": \"QuantitativeValue\", \"value\": 1000, \"unitCode\": \"MTK\" },\n  \"numberOfRooms\": 5,\n  \"geo\": { \"@type\": \"GeoCoordinates\", \"latitude\": -7.7266923, \"longitude\": 109.963951 }\n}"
