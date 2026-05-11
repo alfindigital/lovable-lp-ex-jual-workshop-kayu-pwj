@@ -334,7 +334,7 @@ const BODY_HTML = `<header class="topnav" id="topnav">
     <h2>Lokasi Properti</h2>
     <p class="lead">Persis di pinggir Jalan Nasional Banyuurip, Purworejo — mudah ditemukan dan diakses.</p>
     <div class="map-wrap">
-      <iframe src="https://www.google.com/maps?q=-7.7266923,109.963951&hl=id&z=16&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Lokasi Workshop Kayu Purworejo di Google Maps"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.5935019214503!2d109.96137607574936!3d-7.726686976571286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7aeb4ba64fbb7b%3A0x21de15f422a04dae!2skriya%20works%20wood%20%26%20metal!5e0!3m2!1sen!2sid!4v1778401494498!5m2!1sen!2sid" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" title="Lokasi Workshop Kriya Works Purworejo di Google Maps"></iframe>
     </div>
     <div class="address-box">
       <p><strong>Pitaran Lor, Candisari</strong></p>
