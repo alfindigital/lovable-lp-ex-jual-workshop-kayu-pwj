@@ -392,7 +392,11 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       {
-            "title": "Dijual Workshop Industri Kayu Purworejo | SHM, 35kVA, 3 Oven Kiln Dry | Jalan Nasional"
+            title: "Dijual Workshop Industri Kayu Purworejo | SHM, 35kVA, 3 Oven Kiln Dry | Jalan Nasional"
+      },
+      {
+            name: "google-site-verification",
+            content: "hjEd4hgJkg9qS4q8BiPPhKlU43gWJpbeGa3BDwyZfIY"
       },
       {
             "charSet": "UTF-8"
@@ -523,11 +527,20 @@ export const Route = createFileRoute("/")({
             "rel": "stylesheet",
             "href": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+3:wght@300;400;600;700&display=swap"
       },
-      {
-            "rel": "canonical"
-      }
+      { rel: "preconnect", href: "https://www.googletagmanager.com" },
+      { rel: "preconnect", href: "https://connect.facebook.net" }
 ],
     scripts: [
+      {
+            async: true,
+            src: "https://www.googletagmanager.com/gtag/js?id=G-FWP8WBGP18"
+      },
+      {
+            children: "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-FWP8WBGP18');"
+      },
+      {
+            children: "!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','4498289267084727');fbq('track','PageView');"
+      },
       {
             "type": "application/ld+json",
             "children": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"RealEstateListing\",\n  \"name\": \"Workshop Industri Kayu Purworejo - SHM Tangan Pertama\",\n  \"description\": \"Workshop kayu dan furniture di Purworejo dijual. LT 2893m², SHM, listrik 35kVA, 3 oven kiln dry, pinggir jalan nasional.\",\n  \"url\": \"https://workshop-purworejo.netlify.app\",\n  \"image\": \"https://workshop-purworejo.netlify.app/og-image.jpg\",\n  \"datePosted\": \"2026-05-10\",\n  \"price\": \"6000000000\",\n  \"priceCurrency\": \"IDR\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"streetAddress\": \"Pitaran Lor, Candisari\",\n    \"addressLocality\": \"Purworejo\",\n    \"addressRegion\": \"Jawa Tengah\",\n    \"postalCode\": \"54171\",\n    \"addressCountry\": \"ID\"\n  },\n  \"floorSize\": { \"@type\": \"QuantitativeValue\", \"value\": 1000, \"unitCode\": \"MTK\" },\n  \"numberOfRooms\": 5,\n  \"geo\": { \"@type\": \"GeoCoordinates\", \"latitude\": -7.7266923, \"longitude\": 109.963951 }\n}"
