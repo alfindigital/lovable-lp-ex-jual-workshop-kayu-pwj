@@ -386,7 +386,8 @@ const BODY_HTML = `<header class="topnav" id="topnav">
 
 <a class="wa-float" href="https://wa.me/6289619093961?text=Halo,%20saya%20tertarik%20dengan%20workshop%20kayu%20di%20Purworejo." target="_blank" rel="noopener" aria-label="Hubungi via WhatsApp">
   <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6c1.7.9 3.7 1.4 5.8 1.4 6.6 0 12-5.4 12-12S18.6 0 12 0zm5.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.4.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.3 5.2 4.6.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.3z"/></svg>
-</a>`;
+</a>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=4498289267084727&ev=PageView&noscript=1" alt=""/></noscript>`;
 
 export const Route = createFileRoute("/")({
   head: () => ({
