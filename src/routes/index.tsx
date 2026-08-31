@@ -183,7 +183,7 @@ const BODY_HTML = `<header class="topnav" id="topnav">
       <li><a href="#spesifikasi">Spesifikasi</a></li>
       <li><a href="#lokasi">Lokasi</a></li>
       <li><a href="#faq">FAQ</a></li>
-      <li><a href="https://wa.me/6289619093961?text=Halo,%20saya%20tertarik%20dengan%20workshop%20kayu%20di%20Purworejo.%20Boleh%20info%20lebih%20lanjut?" class="nav-cta" target="_blank" rel="noopener" aria-label="Hubungi via WhatsApp">Hubungi WA</a></li>
+      <li><a href="https://wa.me/YOUR_WHATSAPP_NUMBER?text=Halo,%20saya%20tertarik%20dengan%20workshop%20kayu%20di%20Purworejo.%20Boleh%20info%20lebih%20lanjut?" class="nav-cta" target="_blank" rel="noopener" aria-label="Hubungi via WhatsApp">Hubungi WA</a></li>
     </ul>
   </div>
 </header>
@@ -197,7 +197,7 @@ const BODY_HTML = `<header class="topnav" id="topnav">
     <p class="sub">Pinggir Jalan Nasional · SHM Tangan Pertama · 3 Oven Kiln Dry · Listrik 35 kVA</p>
     <div class="price-pill" aria-label="Harga: 6 Miliar Rupiah Negotiable">Rp 6 Miliar · Nego</div>
     <div class="cta-row">
-      <a class="btn btn-primary" href="https://wa.me/6289619093961?text=Halo,%20saya%20tertarik%20dengan%20workshop%20kayu%20di%20Purworejo.%20Boleh%20info%20lebih%20lanjut?" target="_blank" rel="noopener" aria-label="Tanya properti via WhatsApp">
+      <a class="btn btn-primary" href="https://wa.me/YOUR_WHATSAPP_NUMBER?text=Halo,%20saya%20tertarik%20dengan%20workshop%20kayu%20di%20Purworejo.%20Boleh%20info%20lebih%20lanjut?" target="_blank" rel="noopener" aria-label="Tanya properti via WhatsApp">
         <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6c1.7.9 3.7 1.4 5.8 1.4 6.6 0 12-5.4 12-12S18.6 0 12 0zm5.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.4.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.3 5.2 4.6.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.3z"/></svg>
         Tanya via WhatsApp
       </a>
@@ -351,7 +351,7 @@ const BODY_HTML = `<header class="topnav" id="topnav">
     <div class="final-cta-inner">
       <h2>Tertarik? Hubungi Langsung Owner</h2>
       <p class="body">Penawaran serius dilayani langsung. Sebutkan dari website ini.</p>
-      <a class="btn btn-dark" href="https://wa.me/6289619093961?text=Halo,%20saya%20tertarik%20dengan%20workshop%20kayu%20di%20Purworejo.%20Boleh%20info%20lebih%20lanjut?" target="_blank" rel="noopener" aria-label="Buka WhatsApp untuk hubungi owner">
+      <a class="btn btn-dark" href="https://wa.me/YOUR_WHATSAPP_NUMBER?text=Halo,%20saya%20tertarik%20dengan%20workshop%20kayu%20di%20Purworejo.%20Boleh%20info%20lebih%20lanjut?" target="_blank" rel="noopener" aria-label="Buka WhatsApp untuk hubungi owner">
         <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6c1.7.9 3.7 1.4 5.8 1.4 6.6 0 12-5.4 12-12S18.6 0 12 0zm5.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.4.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.3 5.2 4.6.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.3z"/></svg>
         Buka WhatsApp Sekarang
       </a>
@@ -369,7 +369,7 @@ const BODY_HTML = `<header class="topnav" id="topnav">
     <a href="#spesifikasi">Spesifikasi</a>
     <a href="#lokasi">Lokasi</a>
     <a href="#faq">FAQ</a>
-    <a href="https://wa.me/6289619093961" target="_blank" rel="noopener">Hubungi Kami</a>
+    <a href="https://wa.me/YOUR_WHATSAPP_NUMBER" target="_blank" rel="noopener">Hubungi Kami</a>
   </div>
 </footer>
 
@@ -378,13 +378,13 @@ const BODY_HTML = `<header class="topnav" id="topnav">
     <strong>Workshop Purworejo</strong>
     <span>Rp 6 Miliar · Nego</span>
   </div>
-  <a class="btn btn-primary" href="https://wa.me/6289619093961?text=Halo,%20saya%20tertarik%20dengan%20workshop%20kayu%20di%20Purworejo.%20Boleh%20info%20lebih%20lanjut?" target="_blank" rel="noopener" aria-label="WhatsApp Sekarang">
+  <a class="btn btn-primary" href="https://wa.me/YOUR_WHATSAPP_NUMBER?text=Halo,%20saya%20tertarik%20dengan%20workshop%20kayu%20di%20Purworejo.%20Boleh%20info%20lebih%20lanjut?" target="_blank" rel="noopener" aria-label="WhatsApp Sekarang">
     <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:16px;height:16px"><path d="M12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6c1.7.9 3.7 1.4 5.8 1.4 6.6 0 12-5.4 12-12S18.6 0 12 0z"/></svg>
     WA Sekarang
   </a>
 </div>
 
-<a class="wa-float" href="https://wa.me/6289619093961?text=Halo,%20saya%20tertarik%20dengan%20workshop%20kayu%20di%20Purworejo." target="_blank" rel="noopener" aria-label="Hubungi via WhatsApp">
+<a class="wa-float" href="https://wa.me/YOUR_WHATSAPP_NUMBER?text=Halo,%20saya%20tertarik%20dengan%20workshop%20kayu%20di%20Purworejo." target="_blank" rel="noopener" aria-label="Hubungi via WhatsApp">
   <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6c1.7.9 3.7 1.4 5.8 1.4 6.6 0 12-5.4 12-12S18.6 0 12 0zm5.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.4.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.3 5.2 4.6.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.3z"/></svg>
 </a>
 <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=4498289267084727&ev=PageView&noscript=1" alt=""/></noscript>`;
@@ -614,3 +614,4 @@ function Index() {
     </>
   );
 }
+
