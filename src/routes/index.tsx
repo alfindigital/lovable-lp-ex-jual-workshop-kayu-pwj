@@ -396,10 +396,6 @@ export const Route = createFileRoute("/")({
             title: "Dijual Workshop Industri Kayu Purworejo | SHM, 35kVA, 3 Oven Kiln Dry | Jalan Nasional"
       },
       {
-            name: "google-site-verification",
-            content: "hjEd4hgJkg9qS4q8BiPPhKlU43gWJpbeGa3BDwyZfIY"
-      },
-      {
             "charSet": "UTF-8"
       },
       {
@@ -614,4 +610,5 @@ function Index() {
     </>
   );
 }
+
 
