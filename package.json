@@ -1,6 +1,7 @@
 {
-  "name": "tanstack_start_ts",
-  "private": true,
+  "name": "lovable-lp-ex-jual-workshop-kayu-pwj",
+  "private": false,
+  "license": "MIT",
   "sideEffects": false,
   "type": "module",
   "scripts": {
@@ -86,3 +87,4 @@
     "vite": "^7.3.1"
   }
 }
+
